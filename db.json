@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "Corynna Esmeralda Hdz ",
+      "empresa": "Shelmex",
+      "email": "corynnahernandez@gmail.com",
+      "telefono": "8128696468",
+      "notas": "nuevo",
+      "id": 1
+    },
+    {
+      "nombre": "Juan actualizado",
+      "empresa": "HomeOffice",
+      "email": "perla@gmail.com",
+      "telefono": "8128696468",
+      "notas": "jkjkj",
+      "id": 2
+    },
+    {
+      "nombre": "Damian Gaytan Vaquera",
+      "empresa": "Softtek",
+      "email": "perla@gmail.com",
+      "telefono": "8128696468",
+      "notas": "mkk",
+      "id": 3
+    }
+  ]
+}

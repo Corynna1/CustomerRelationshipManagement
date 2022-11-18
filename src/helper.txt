@@ -1,0 +1,66 @@
+ROUTING:
+de momento todas nuestras aplicaciones han sido de una sola pantalla, con libreria de Routing puedes tener diferentes URLs y mostrar diferentes componentes, asi como restringir acceso a ciertas paginas. 
+Un proyecto grande es mejor manejarlo en multiples pantallas, en lugar de solo componentes que revise multiples condiciones.
+
+Librerias : React Router, v6 , remix run, react location
+
+React Router DOM
+Es una libreria para crear Routing (diferentes urls)
+Al tener diferentes paginas tendremos mejor orden, podemos seguir re-utilizando componentes y mas 
+
+Se tiene que instalar en terminal: npm react-router-dom
+
+///////////////////
+
+ACTIONS AND LOADERS
+
+utiliza Loader para obtener datos de una api o un objeto (similar a un state)
+
+Utiliza Action para procesar la entrada de datos en un Form, despues de un action seimpre se espera un request que es una peticion hacia el action
+
+////////////////////
+
+Cuando utilizar UseLoaderData y useActionData:
+UseLoaderData cuando quieras obtener el resultado de un Loader y 
+useActionData cuando quieras obtener el resultado de un action
+
+
+////////////////////
+
+REST API:
+REST(representational state Transfer)
+Puede ser diseñada en cualquier lenguaje, consulta los recursos de una api y entonces consumir el resultado con cualuiqer framework
+Esta debe de responder a los Request HTTP: GET, POST, PUT, PATCH, DELETE
+
+tiene una forma ordenada y estructurada de poner a disposicion los recursos.
+
+GET: OBTENER registros de una base de datos o una api
+     ejemplo, si quieres descargar los ultimos 100 pedidos o los ultimos 2000 clientes vas a enviar 
+     una peticion tipo GET hacia una url
+POST: ENVIAR DATOS AL SERVIDOR / CREACION, es un registro totalmente nuevo
+PUT/PATCH: ACTUALIZAR un registro existente
+DELETE:ELIMINAR un registro
+
+una API sigue un cierto formato en sus rutas o url 
+estas se llamasn ENDPOINTS:
+
+Una REST API cuenta con Endpoints ( o URL) para hacer operaciones CRUD
+
+*Listar todos los clientes  GET /clientes
+*Obtener un solo cliente    GET /clientes/10 o id
+*Crear un nuevo Cliente     POST /clientes
+*Editar un cliente          PUT /clientes/3
+*Borrar un cliente          DELETE /clientes/8
+
+
+ Resources  
+ http://localhost:4000/clientes
+
+  Home
+  http://localhost:4000
+
+
+npx json-server --watch db.json --port 4000
+
+
+//Error Boundaries: error en pantalla 
